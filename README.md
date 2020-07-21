@@ -11,6 +11,7 @@ I had to write code in order to :
 	(1) import the data and answer interesting questions about it by computing descriptive statistics,
 	(2) write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
+Complete project review is available at - https://review.udacity.com/#!/rubrics/1379/view (requires login)
 
 ### Files used
 Data files used were: chicago.csv
