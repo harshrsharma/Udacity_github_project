@@ -232,6 +232,8 @@ def user_stats(df):
 def main():
     city, month, day = get_filters()
     df = load_data(city, month, day)
+    if(city.lower()=='washington'):
+        print('Washington does not have gender based data')
     display_data(df)
     time_stats(df,month,day)
     station_stats(df)
