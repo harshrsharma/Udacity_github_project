@@ -94,7 +94,8 @@ def load_data(city, month, day):
 
 
 def display_data(df):
-    """Ask and display data to user"""
+    """Ask and display data to user
+    Sample data size will increase by 5 every time user wants to see more data"""
     count = 0
     while(True):
         count += 5
